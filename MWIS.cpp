@@ -9,11 +9,11 @@
  *              [weight of vertex 2]
  *              ...
  *
- *              The program will use dynamic programming to efficiently
+ *              The program uses dynamic programming to efficiently
  *              compute in linear time the maximum weight independent set
- *              of a graph. The program will return a one-hot vector
- *              indicating if the vertices 1, 2, 3, 4, 17, 117, 517, and 997
- *              are in the max weight independent set.
+ *              of the specified path graph. The program returns a one-hot 
+ *              vector indicating if the vertices 1, 2, 3, 4, 17, 117, 517, 
+ *              and 997 are in the max weight independent set.
  */
 
 #include <iostream>
